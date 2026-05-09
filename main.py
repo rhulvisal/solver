@@ -269,14 +269,11 @@ class TurnstileAPIServer:
         self.console.clear()
 
         combined_text = Text()
-        combined_text.append("
- GitHub: ", style="bold white")
+        combined_text.append(" GitHub: ", style="bold white")
         combined_text.append("https://github.com/rythampkhandelwal", style="cyan")
-        combined_text.append("
- Version: ", style="bold white")
+        combined_text.append(" Version: ", style="bold white")
         combined_text.append("1.3b-railway", style="green")
-        combined_text.append("
-")
+        combined_text.append("\n")
 
         info_panel = Panel(
             Align.left(combined_text),
