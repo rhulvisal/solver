@@ -1,8 +1,0 @@
-quart
-asyncio
-argparse
-patchright
-camoufox[geoip]
-requests
-aiosqlite
-rich
